@@ -14,6 +14,8 @@
 		282ED115231DA70000B975DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282ED113231DA70000B975DA /* LaunchScreen.storyboard */; };
 		282ED120231DA70000B975DA /* ProgrammingAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282ED11F231DA70000B975DA /* ProgrammingAssignmentTests.swift */; };
 		282ED12B231DA70000B975DA /* ProgrammingAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282ED12A231DA70000B975DA /* ProgrammingAssignmentUITests.swift */; };
+		28D380FD231DCAAC00ED5BC6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D380FC231DCAAC00ED5BC6 /* RatingControl.swift */; };
+		28D38101231DF3D200ED5BC6 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D38100231DF3D200ED5BC6 /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		282ED126231DA70000B975DA /* ProgrammingAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammingAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282ED12A231DA70000B975DA /* ProgrammingAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingAssignmentUITests.swift; sourceTree = "<group>"; };
 		282ED12C231DA70000B975DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D380FC231DCAAC00ED5BC6 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		28D38100231DF3D200ED5BC6 /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		282ED109231DA6FF00B975DA /* ProgrammingAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				28D380FC231DCAAC00ED5BC6 /* RatingControl.swift */,
 				282ED10A231DA6FF00B975DA /* AppDelegate.swift */,
 				282ED10C231DA6FF00B975DA /* ViewController.swift */,
 				282ED10E231DA6FF00B975DA /* Main.storyboard */,
 				282ED111231DA70000B975DA /* Assets.xcassets */,
 				282ED113231DA70000B975DA /* LaunchScreen.storyboard */,
 				282ED116231DA70000B975DA /* Info.plist */,
+				28D38100231DF3D200ED5BC6 /* PopViewController.swift */,
 			);
 			path = ProgrammingAssignment;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D38101231DF3D200ED5BC6 /* PopViewController.swift in Sources */,
 				282ED10D231DA6FF00B975DA /* ViewController.swift in Sources */,
+				28D380FD231DCAAC00ED5BC6 /* RatingControl.swift in Sources */,
 				282ED10B231DA6FF00B975DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
